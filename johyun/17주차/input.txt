@@ -1,2 +1,7 @@
-8 3
-7 3 1 8 4 6 2 5
+3 5
+black blue red
+5 black
+5 black
+5 black
+3 red
+3 blue

@@ -13,7 +13,7 @@ def solution():
             p1 = (i%100)%10
             result = (p100**3)+(p10**3)+(p1**3)
             if i==result:
-                print(result , end='\t')
+                print(result , end=' ')
 
         #n2가 4자리수일때
         elif n2>999:
@@ -21,9 +21,9 @@ def solution():
             p100 = (i % 1000)//100
             p10 = (i % 100) // 10
             p1 = (i % 10)
-            result = (p1000**4)+(p100**4)+(p10**4)+(p1**4)
+            result = (p1000**3)+(p100**3)+(p10**3)+(p1**3)
             if i==result:
-                print(result , end='\t')
+                print(result , end=' ')
 
 solution()
 
