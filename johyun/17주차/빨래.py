@@ -7,7 +7,6 @@ color =str(input().split())
 no_and_color=[]
 for i in range(c):
     no_and_color.append(input().split())
-
 for data in no_and_color:
     if data[1]==color[0]:
 
