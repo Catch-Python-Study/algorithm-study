@@ -26,10 +26,15 @@ def bfs():
                 graph[a][b] = graph[x][y]+1
 bfs()
 answ = 0
-for i in graph:
-    for j in i:
-        if j==0:
-            print(-1)
+def aa():
+    global answ
+    for i in graph:
+        for j in i:
+            if j == 0:
+                print(-1)
+                return -1
 
-    answ = max(answ, max(i))
-print(answ-1)
+        answ = max(answ, max(i))
+    return answ- 1
+
+aa()
